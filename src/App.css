@@ -1,0 +1,389 @@
+#root {
+  max-width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Container{
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  background-color: rgb(234, 237, 244) ;
+  border-radius: 25px;
+}
+
+.sidebar{
+  height: 700px;
+  width: 200px;
+  background-color: rgb(53, 58, 87);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.Logo{
+  height: 60px;
+  width: 150px;
+  background-color: rgb(116, 139, 241);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 27px;
+}
+
+.logoPic{
+  background-image: url("./assets/Preview-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 70px;
+  height: 70px;
+}
+
+.logo-menu{
+  height: 40px;
+  width: 20px;
+  background-color: rgb(104, 129, 222);
+  border-radius: 5px;
+  margin-right: 7px;
+}
+
+.menu-listContainer{
+  line-height: 3;
+}
+
+.menu-list:hover{
+  cursor: pointer;
+  background-color: rgb(48, 53, 82);
+  border-radius: 20px;
+  width: 180px;
+  margin-left: 10px;
+  color: white;
+}
+
+.pic{
+  background-image: url(./assets/Benefits-of-Low-Code-Development-for-Healthcare-App.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+  border-radius: 20px;
+  margin-top: 63px;
+  
+}
+
+.secground{
+  margin-left: 30px;
+}
+
+.profile{
+  display: flex;
+  float: right;
+}
+
+.search{
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 15px;
+  border: none;
+  /* margin-right: 80px; */
+}
+
+.prof{
+  display: flex;
+  margin-top: 15px;
+  gap: 25px;
+}
+
+.settings{
+  color: rgb(148, 151, 158);
+  margin-top: 8px;
+}
+
+.picture{
+  background-image: url("./assets/Screenshot_10-7-2024_8139_www.bing.com.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.outerlayer{
+  height: 35px;
+  width: 35px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 90px;
+}
+
+.innerlayer{
+  height: 25px;
+  width: 25px;
+  background-color: rgb(204, 250, 248);
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-left: 5px;
+  position: absolute;
+}
+
+.menu{
+  margin-left: 4px;
+  margin-top: 2px;
+}
+
+.bio{
+  line-height: 10px;
+}
+
+.Greet{
+  font-size: 30px;
+  margin-top: 70px;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.thirth-component{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Activities{
+  display: flex;
+  gap: 10px;
+}
+
+.num{
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.num1{
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: bold;
+  color: white;
+}
+
+.spacing{
+  margin-left: 10px;
+}
+
+.text{
+  line-height: 15px;
+}
+
+.percentages{
+  margin-top: 50px;
+  line-height: 2px;
+}
+
+.bingo{
+  margin-top: 55px;
+  margin-left: 75px;
+}
+
+.changeColour{
+  color: white;
+}
+
+.from{
+  color: rgb(148, 151, 158);
+}
+
+.first-activity{
+  height: 200px;
+  width: 150px;
+  background-color: rgb(116, 139, 241);
+  border-radius:15px;
+}
+
+.sec-activity{
+  height: 200px;
+  width: 150px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.thirth-activity{
+  height: 200px;
+  width: 150px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.forth-activity{
+  height: 200px;
+  width: 150px;
+  background-color: rgb(253, 153, 153);
+  border-radius: 15px;
+}
+
+.fifth-activity{
+  height: 200px;
+  width: 300px;
+  background-color: rgb(53, 58, 87);
+  border-radius: 15px;
+  margin-left: 30px;
+}
+
+.speechbubble{
+  position:absolute;
+  width: 120px;
+  height: 90px;
+  border-radius: 20px;
+  left: 81%;
+  top: 31%;
+  background-color: white;
+}
+
+.speech{
+  font-size: 0.8em;
+  margin-left: 10px;
+}
+
+.arrow{
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-right: 30px solid white;
+  border-top: 10px solid transparent;
+  border-bottom: 50px solid transparent;
+  top: 40%;
+  left:64%;
+}
+
+.icon{
+  color: rgb(115, 223, 208);
+}
+
+.metaai{
+  background-image: url("./assets/www.bing.comremovebg-preview.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  height: 60px;
+  width: 55px;
+  margin-left: 80px;
+  margin-top: 35px;
+}
+
+.iconalign{
+  display: flex;
+}
+
+.block{
+  margin-left: 12px;
+}
+
+.forth-component{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nam{
+  margin-right: 15px;
+}
+
+.info{
+  display: flex;
+  height: 60px;
+  width: 250px;
+  background-color: white;
+  /* justify-content: space-between; */
+  border-radius: 10px;
+}
+
+.airplane{
+  background-image: url("./assets/plane.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  margin-left: 20px;
+}
+
+.plane{
+  line-height: 8px;
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+.plane-ellip{
+  margin-top: 23px;
+  /* margin-left: 120px; */
+  color: gray;
+}
+
+.phone{
+  background-image: url("./assets/telephone.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  margin-left: 20px;
+}
+
+.bus{
+  background-image: url("./assets/bus.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  margin-left: 20px;
+}
+
+.last-component{
+  display: flex;
+  justify-content: space-between;
+}
+
+.company{
+  height: 200px;
+  width: 600px;
+  background-color: white;
+  display: flex;
+  border-radius: 15px;
+  margin-right: 15px;
+}
+
+.building{
+  background-image: url("./assets/vector-urban-concept-flat-style-260nw-188403167.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 300px;
+  margin-top: 30px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.destribtion{
+  margin-left: 20px;
+}
+
+.topic{
+  font-size: large;
+  font-weight: 700;
+}
+
+.topicbus{
+  font-style: normal;
+  font-weight: bold;
+}
+
+.btn{
+  height: 30px;
+  width: 150px;
+  background-color: rgb(116, 140, 238);
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
