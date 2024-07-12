@@ -10,7 +10,7 @@
 .Container{
   display: flex;
   height: 700px;
-  width: 1200px;
+  width: 1220px;
   background-color: rgb(234, 237, 244) ;
   border-radius: 25px;
 }
@@ -52,14 +52,19 @@
 
 .menu-listContainer{
   line-height: 3;
+  text-align: left;
+  width: 120px;
+  margin-left: 35px;
+  justify-content:center;
+  color: rgb(99, 105, 131);
 }
 
 .menu-list:hover{
   cursor: pointer;
   background-color: rgb(48, 53, 82);
-  border-radius: 20px;
-  width: 180px;
-  margin-left: 10px;
+  border-radius: 15px;
+  width: 150px;
+  margin-right: 0px;
   color: white;
 }
 
@@ -88,7 +93,7 @@
   border-radius: 20px;
   margin-top: 15px;
   border: none;
-  /* margin-right: 80px; */
+  margin-right: 100px;
 }
 
 .prof{
@@ -117,6 +122,7 @@
   background-color: white;
   border-radius: 20px;
   margin-top: 90px;
+  margin-right: 20px;
 }
 
 .innerlayer{
@@ -151,6 +157,10 @@
   justify-content: space-between;
 }
 
+.assign{
+  margin-right: 20px;
+}
+
 .Activities{
   display: flex;
   gap: 10px;
@@ -180,7 +190,12 @@
 }
 
 .percentages{
-  margin-top: 50px;
+  margin-top: 70px;
+  line-height: 2px;
+}
+
+.percentages2{
+  margin-top: 35px;
   line-height: 2px;
 }
 
@@ -297,7 +312,6 @@
   height: 60px;
   width: 250px;
   background-color: white;
-  /* justify-content: space-between; */
   border-radius: 10px;
 }
 
@@ -307,18 +321,36 @@
   background-size: cover;
   height: 20px;
   width: 20px;
-  margin-left: 20px;
+  margin:10px;
+}
+
+.backgnd{
+  background-color: rgb(220, 252, 251);
+  width: 40px;
+  height: 40px;
+  margin: 10px 10px;
 }
 
 .plane{
   line-height: 8px;
   font-size: 12px;
-  margin-left: 15px;
 }
 
-.plane-ellip{
+.plane-ellip1{
   margin-top: 23px;
-  /* margin-left: 120px; */
+  margin-left: 100px;
+  color: gray;
+}
+
+.plane-ellip2{
+  margin-top: 23px;
+  margin-left: 80px;
+  color: gray;
+}
+
+.plane-ellip3{
+  margin-top: 23px;
+  margin-left: 115px;
   color: gray;
 }
 
@@ -328,7 +360,7 @@
   background-size: cover;
   height: 20px;
   width: 20px;
-  margin-left: 20px;
+  margin: 10px;
 }
 
 .bus{
@@ -337,7 +369,7 @@
   background-size: cover;
   height: 20px;
   width: 20px;
-  margin-left: 20px;
+  margin: 10px;
 }
 
 .last-component{
@@ -353,6 +385,17 @@
   border-radius: 15px;
   margin-right: 15px;
 }
+
+/* .siren{
+  background-image: url("./assets/siren1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  margin-left: 220px;
+  margin-bottom: 50px;
+  z-index: 1;
+} */
 
 .building{
   background-image: url("./assets/vector-urban-concept-flat-style-260nw-188403167.webp");
@@ -379,6 +422,10 @@
   font-weight: bold;
 }
 
+.explaination{
+  color: grey;
+}
+
 .btn{
   height: 30px;
   width: 150px;
@@ -386,4 +433,14 @@
   color: white;
   border-radius: 20px;
   border: none;
+ }
+
+.mdi--unlocked {
+  margin-right: 10px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M18 8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h9V6a3 3 0 0 0-3-3a3 3 0 0 0-3 3H7a5 5 0 0 1 5-5a5 5 0 0 1 5 5v2zm-6 9a2 2 0 0 0 2-2a2 2 0 0 0-2-2a2 2 0 0 0-2 2a2 2 0 0 0 2 2'/%3E%3C/svg%3E");
 }

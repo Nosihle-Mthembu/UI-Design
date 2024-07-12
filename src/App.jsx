@@ -11,6 +11,8 @@ import { LuSettings } from "react-icons/lu";
 import { LuMenu } from "react-icons/lu";
 import { PiTargetBold } from "react-icons/pi";
 import { GoCheckCircleFill } from "react-icons/go";
+import { LuSiren } from "react-icons/lu";
+
 
 function App() {
 
@@ -77,7 +79,7 @@ function App() {
 
           <div className='thirth-component'>
           <p>Today</p>
-          <p>automatically assigned</p>
+          <p className='assign'>automatically assigned</p>
           </div>
 
           <div className='Activities'>
@@ -146,7 +148,7 @@ function App() {
                   <p className='changeColour'>Destribution</p>
                 </div>
                 <div className='iconalign'>
-                  <div className='percentages'>
+                  <div className='percentages2'>
                     <p className='from'>From <span className='changeColour'>100%</span></p>
                     <input type="range" min="1" max="100" defaultValue="70"></input>
                   </div>
@@ -164,7 +166,8 @@ function App() {
             </div>
 
           </div>
-                {/* Forth Component */}
+          
+          {/* Forth Component */}
           <div className='forth-component'>
             <p>Mockup</p>
             <p className='nam'>Company</p>
@@ -173,28 +176,34 @@ function App() {
           <div className='last-component'>
             <div className='infospace'>
               <div className='info'>
-                <p className='airplane'></p>
+                <div className='backgnd'>
+                 <p className='airplane'></p> 
+                </div>
                 <div className='plane'>
                   <p className='topicbus'>AIR PLANE</p>
-                  <p>plane took</p>
+                  <p className='explaination'>Plane took</p>
                 </div>
-                <FaEllipsisVertical className='plane-ellip'/>
+                <FaEllipsisVertical className='plane-ellip1'/>
               </div><br />
               <div className='info'>
-                <p className='phone'></p>
+                <div className='backgnd'>
+                  <p className='phone'></p>
+                </div>
                 <div className='plane'>
                   <p className='topicbus'>TELEPHONE</p>
-                  <p>Telephone took</p>
+                  <p className='explaination'>Telephone took</p>
                 </div>
-                <FaEllipsisVertical className='plane-ellip'/>
+                <FaEllipsisVertical className='plane-ellip2'/>
               </div><br />
               <div className='info'>
-                <p className='bus'></p>
+                <div className='backgnd'>
+                  <p className='bus'></p>
+                </div>
                 <div className='plane'>
                   <p className='topicbus'>BUS</p>
-                  <p>Bus took</p>
+                  <p className='explaination'>Bus took</p>
                 </div>
-                <FaEllipsisVertical className='plane-ellip'/>
+                <FaEllipsisVertical className='plane-ellip3'/>
               </div>
             </div>
 
@@ -202,7 +211,9 @@ function App() {
               <div className='destribtion'>
                 <p className='topic'>FMOUNTAIN COMPANY</p>
                 <p>Leading big data solution provider in China, aiming to use big data and artificial intelligence</p>
-                <button className='btn'>UNLOCK</button>
+                <button className='btn'><span className='mdi--unlocked'></span>
+                  UNLOCK
+                  </button>
               </div>
               <div className='building'>
                 <img src="" alt="" />
