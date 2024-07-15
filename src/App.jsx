@@ -7,7 +7,6 @@ import { IoMdUnlock } from "react-icons/io";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaSearchLocation } from "react-icons/fa";
 import { LuSettings } from "react-icons/lu";
-// import { HiOutlineMagnifyingGlass } from "react-icons/hi2";
 import { LuMenu } from "react-icons/lu";
 import { PiTargetBold } from "react-icons/pi";
 import { GoCheckCircleFill } from "react-icons/go";
@@ -49,33 +48,26 @@ function App() {
           <div className='profile'>
             <input className='search' type="text" placeholder= "  Search..."/>
             <div className='prof'>
-            <LuSettings className='settings' style={{
-              marginLeft:10,
-            }}/>
-            <div className='picture'></div>
+              <LuSettings className='settings' style={{
+                marginLeft:10,
+              }}/>
+              <div>
+                <div className='picture'></div>
+                <div className='outerlayer'>
+                  <div className='innerlayer'>
+                    <div className='menu'><LuMenu style={{
+                      color:"grey",
+                    }}/></div>
+                  </div>
             </div>
-            <div className='outerlayer'>
-              <div className='innerlayer'>
-                <div className='menu'><LuMenu style={{
-                  color:"grey",
-                }}/></div>
-              </div>
+                </div>
             </div>
           </div>
 
-          {/* <div className='second-component'> */}
             <div className='bio'>
               <p className='Greet'>Hello! Leon</p>
               <p>Never put off tomorrow what can be done today!</p>
             </div>
-            {/* <div className='outerlayer'>
-              <div className='innerlayer'>
-                <div><LuMenu style={{
-                  color:"grey",
-                }}/></div>
-              </div>
-            </div> */}
-          {/* </div> */}
 
           <div className='thirth-component'>
           <p>Today</p>
@@ -171,6 +163,15 @@ function App() {
           <div className='forth-component'>
             <p>Mockup</p>
             <p className='nam'>Company</p>
+            <div className='outershell'>
+              <div><LuSiren style={{
+                position:"relative",
+                width:20,
+                height:20,
+                marginLeft:10,
+                marginTop:9,
+              }}/></div>
+            </div>
           </div>
 
           <div className='last-component'>
@@ -215,9 +216,7 @@ function App() {
                   UNLOCK
                   </button>
               </div>
-              <div className='building'>
-                <img src="" alt="" />
-              </div>
+              <div className='building'></div>
             </div>
           </div>
         </div>

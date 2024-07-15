@@ -86,6 +86,8 @@
 .profile{
   display: flex;
   float: right;
+  margin-right: 20px;
+  margin-top: 9px;
 }
 
 .search{
@@ -98,7 +100,7 @@
 
 .prof{
   display: flex;
-  margin-top: 15px;
+  margin-top: 12px;
   gap: 25px;
 }
 
@@ -121,8 +123,9 @@
   width: 35px;
   background-color: white;
   border-radius: 20px;
-  margin-top: 90px;
-  margin-right: 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .innerlayer{
@@ -152,13 +155,21 @@
   font-style: normal;
 }
 
+.landline{
+  background-image: url("./assets/landline.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 15px;
+  height: 15px;
+}
+
 .thirth-component{
   display: flex;
   justify-content: space-between;
 }
 
 .assign{
-  margin-right: 20px;
+  margin-right: 8rem;
 }
 
 .Activities{
@@ -241,6 +252,7 @@
 }
 
 .fifth-activity{
+  position: relative;
   height: 200px;
   width: 300px;
   background-color: rgb(53, 58, 87);
@@ -252,9 +264,9 @@
   position:absolute;
   width: 120px;
   height: 90px;
-  border-radius: 20px;
-  left: 81%;
-  top: 31%;
+  border-radius: 15px;
+  left: 45%;
+  top: 5%;
   background-color: white;
 }
 
@@ -300,7 +312,8 @@
 .forth-component{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 300px;
+
 }
 
 .nam{
@@ -386,17 +399,6 @@
   margin-right: 15px;
 }
 
-/* .siren{
-  background-image: url("./assets/siren1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 50px;
-  height: 50px;
-  margin-left: 220px;
-  margin-bottom: 50px;
-  z-index: 1;
-} */
-
 .building{
   background-image: url("./assets/vector-urban-concept-flat-style-260nw-188403167.webp");
   background-repeat: no-repeat;
@@ -443,4 +445,15 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M18 8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h9V6a3 3 0 0 0-3-3a3 3 0 0 0-3 3H7a5 5 0 0 1 5-5a5 5 0 0 1 5 5v2zm-6 9a2 2 0 0 0 2-2a2 2 0 0 0-2-2a2 2 0 0 0-2 2a2 2 0 0 0 2 2'/%3E%3C/svg%3E");
+}
+
+.outershell{
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 20px;
+  margin-top: 45px;
+  margin-left: 39rem;
+  position: absolute;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
